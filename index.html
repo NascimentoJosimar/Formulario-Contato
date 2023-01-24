@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="text-center">Contato</h1>
+                        <form id="form-contato">
+                            <div class="form-group">
+                                <label for="nome">Nome:</label>
+                                <input class="form-control mb-3" type="text" name="nome" id="nome" placeholder="Digite o seu nome...">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input class="form-control mb-3" type="email" name="email" id="email" placeholder="Digite o seu e-mail...">
+                            </div>
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem:</label>
+                                <textarea class="form-control mb-3" name="mensagem" id="mensagem" placeholder="Digite a sua mensagem..."></textarea>
+                            </div>
+                            <div class="form-group text-center">
+                                <button type="submit" class="btn btn-primary mb-3">ENVIAR</button>
+                            </div>
+                            <div class="alert alert-danger d-none">
+                                Preencha o campo <span id="campo-erro"></span>!
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15801.798131385041!2d-34.87907547420097!3d-8.055543507195043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a2a565885f%3A0x802b0e52579b84b7!2sRecife%2C%20PE%2C%2050030-230!5e0!3m2!1spt-BR!2sbr!4v1674518639748!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</body>
+</html>
